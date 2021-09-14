@@ -1,0 +1,8 @@
+* Scripts Gitlab
+
+  Scripts que podem ser executados a partir do Jenkins para interagir com uma
+  instalação de gitlab usando curl, sed, jq e bash.
+
+  - adiciona-projeto-a-grupo.sh
+  - lista-projetos-criados.sh
+  - lista-usuarios.sh
