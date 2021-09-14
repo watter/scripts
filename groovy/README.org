@@ -1,0 +1,13 @@
+* Groovy
+
+  - ConversionUtil.groovy - classe que faz o parse de um valor informado em
+    formato humano p.ex:
+    + 300.00 GiB
+    + 300.00 GB
+    + 300.00 B
+    + 300 EB
+    + 300.00 GiB
+    + 300M
+
+   Retornando o valor em /long/ para ser utilizado para alocação de ativos:
+    memória, disco, etc
